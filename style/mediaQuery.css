@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+/**Tablet Version**/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #loginScreen {
+        width: 90vw;
+    }
+
+    #img{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #forms {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #loginScreen {
+        width: 950px;
+    }
+
+    #img {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+
+    #forms {
+        float: left;
+        width: 40%;
+    }
+}
